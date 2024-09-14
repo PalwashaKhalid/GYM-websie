@@ -1,1 +1,0 @@
-console.log("This is how you can link another file in html");
