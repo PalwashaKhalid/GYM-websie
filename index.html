@@ -1,0 +1,158 @@
+<!--FREE WEBSITE TEMPELATED FOR IDEAS-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /*CSS reset*/
+    body{
+        font-family: "Baloo Bhai 2", sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background:url('img/bg.jpg');
+    }
+    .left{
+        
+    position: absolute;
+    left: 34px;
+    top: 20px;
+        display: inline-block;
+    }
+    .left img{
+        width: 96px;
+        filter: invert();
+        
+    }
+    .left div{
+        line-height: 12px;
+        color: white;
+        text-align: center;
+        font-size: 24px;
+    }
+    .mid{
+        display: block;
+        width: 43%;
+        margin: 20px auto;
+    }
+    .navbar{
+         display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 6px;
+    }
+    
+    .navbar li a:hover, .navbar li a.active{
+        color: grey;
+        text-decoration: underline;
+        padding: 34px 6px;
+    }
+    .right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+
+        display: inline-block;
+    }
+    .btn{
+        font-family: "Baloo Bhai 2", sans-serif;
+        margin: 0px 9px;
+       color: white;
+       background: black;
+       padding: 4px 14px;
+       border: 2px solid grey;
+       border-radius: 10px;
+       font-size: 17px;
+       cursor: pointer; 
+    }
+    .btn:hover{
+        background: grey;
+    }
+    .container{
+        color: white;
+        margin: 108px 47px;
+        padding: 37px;
+        width: 32%;
+        border: 2px solid white;
+        border-radius: 10px;
+    
+    }
+    .form-group input{
+        font-family: "Baloo Bhai 2", sans-serif;
+        font-size: 88%;
+    text-align: center;
+    display: block;
+    width: 294px;
+    padding: 4px;
+    margin: 3px auto;
+    border: 3px solid black;
+       border-radius: 7px;
+    }
+    .container button{
+        display: block;
+        margin: 25px auto;
+        width: 207px;
+        font-size: 14px;
+    }
+    .container h1{
+        text-align: center;
+    }
+</style>
+<body> 
+    <header class="header">
+        <div class="left">
+            <!--left for logo-->
+            <img src="img/logo.png" alt>
+            <div>Fitness Club</div>
+        </div>
+        <div class="mid">
+              <!--mid for navbar-->
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">FITNESS CALCUATOR</a></li>
+                <li><a href="#">CONATCT US</a></li>
+            </ul>
+            
+
+        </div>
+        <div class="right">
+              <!--right for buttons-->
+              <button class="btn">Call Us Now</button>
+              <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of KARACHI now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
